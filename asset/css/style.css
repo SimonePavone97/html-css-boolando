@@ -1,16 +1,41 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    margin: 0px auto;
+    text-align: center;
 }
 
 .container{
     display: inline-block;
-    
-}
+    position: relative;
+    margin: 10px;
+    top: 10px;
+} 
 
 .size{
     height: 924px;
     width: 640px;
 }
 
+.discount{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0px;
+    font-size: 2rem;
+    bottom: 5%;
+    padding: 5px;
+}
+
+.bgreen{
+   background-color: green;
+   font: 2rem;
+   color: white; 
+   bottom: 5%;
+   left:5px;
+   padding: 5px;
+}
